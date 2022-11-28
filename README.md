@@ -1,5 +1,7 @@
 # NamedParameters-JavaScript
 
+How to Use Named Parameters in JavaScript
+
 function example({ arg1 = 1, arg2 = 2, arg3 = 3 } = {}) {
   return { arg1, arg2, arg3 };
 }
